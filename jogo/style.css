@@ -1,0 +1,335 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{ 
+	background-image:url(Gif/Untitled1.gif); 
+	background-size:cover; 
+	background-repeat:no-repeat;
+	margin:0; 
+	padding:0; 
+	background-position: center; 
+	overflow: hidden;
+}
+
+
+figure
+{
+	margin:0;
+}
+.container {
+	height: 100vh;
+	position: relative
+}
+
+.card1
+{
+width:140px; height:220px; background-image:url(Cards/backcard3.png); position:absolute; background-size:contain; background-repeat:no-repeat;
+bottom:-80px; left:20%; transform:rotate(0deg); transition: all .1s ease; cursor:pointer
+}
+
+.card1:hover
+{
+	background-image:url(Cards/card1.png); transform:rotate(0deg) translateY(-150px) scale(2.0); z-index:2; transform-origin:center; transition-duration: 1s; padding-top:98px
+	
+}
+
+.card1:active
+{padding-top:250px; left:44%; transform: rotate(0deg); background-image:url(Cards/card1.png);}
+
+
+	
+	
+	
+.card2
+{
+width:140px; height:220px; background-image:url(Cards/backcard3.png); position:absolute; background-size:contain; background-repeat:no-repeat;
+bottom:-60px; left:31%; transform:rotate(0deg); transition: all .2s ease; cursor:pointer
+}
+
+.card2:hover
+{
+	background-image:url(Cards/card2.png);transform:rotate(0deg) translateY(-150px) scale(2.0); z-index:2; transform-origin:center; transition-duration: 2s; padding-top:98px
+}
+
+.card2:active
+{padding-top:250px; left:45%; transform: rotate(0deg); background-image:url(Cards/card2.png)}
+
+.card3
+{
+width:140px; height:220px; background-image:url(Cards/backcard3.png); position:absolute; background-size:contain; background-repeat:no-repeat;
+bottom:-50px; left:42%; transform:rotate(0deg);
+}
+
+.card3:hover
+{
+	background-image:url(Cards/card3.png); transform:rotate(0deg) translateY(-150px) scale(2.0); z-index:3; transform-origin:center; transition-duration:2s; cursor:pointer; padding-top:98px
+	
+}
+
+.card3:active
+{padding-top:250px; left:45%; transform: rotate(0deg); background-image:url(Cards/card3.png)}
+
+
+.card4
+{
+width:140px; height:220px; background-image:url(Cards/backcard3.png); position:absolute; background-size:contain; background-repeat:no-repeat;
+bottom:-50px; left:53%; transform:rotate(1deg); cursor:pointer
+}
+
+.card4:hover
+{
+	background-image:url(Cards/card4.png); transform:rotate(0deg) translateY(-150px) scale(2.0); z-index:2; transform-origin:center; transition-duration:2s; cursor:pointer; padding-top:98px
+	
+}
+
+.card4:active
+{padding-top:250px; left:45%; transform: rotate(0deg); background-image:url(Cards/card4.png)}
+
+.card5
+{
+width:140px; height:220px; background-image:url(Cards/backcard3.png); position:absolute; background-size:contain; background-repeat:no-repeat;
+bottom:-60px; left:64%; transform:rotate(0deg);
+}
+
+
+
+.card5:hover
+{
+	background-image:url(Cards/card5.png); transform:rotate(0deg) translateY(-150px) scale(2.0); z-index:1; transform-origin:center; transition-duration:2s; cursor:pointer; padding-top:98px
+	
+}
+
+.card5:active
+{padding-top:250px; left:45%; transform: rotate(0deg); background-image:url(Cards/card5.png)}
+
+.card6
+{
+width:140px; height:220px; background-image:url(Cards/backcard3.png); position:absolute; background-size:contain; background-repeat:no-repeat;
+bottom:-80px; left:75%; transform:rotate(0deg); cursor:pointer
+}
+
+.card6:hover
+{
+	background-image:url(Cards/card6.png); transform:rotate(0deg) translateY(-150px) scale(2.0); z-index:2; transform-origin:center; transition-duration:1s; cursor:pointer; padding-top:98px
+	
+}
+.card6:active
+{padding-top:250px; left:45%; transform: rotate(0deg); background-image:url(Cards/card6.png)}
+
+
+.card7
+{
+width:140px; height:220px; background-image:url(Cards/backcard3.png); position:absolute; background-size:contain; background-repeat:no-repeat;
+top:-75px; left:75%; transform:rotate(0deg); cursor:pointer; 
+}
+
+.card7:hover
+{
+	background-image:url(Cards/card8.png);  z-index:2; transform-origin:center; transition-duration:1s;
+	transform:rotate(0deg) translateY(360px) scale(2.0); transition-duration:1s; padding-bottom:20px
+}
+
+.card7:active
+{transform:rotate(0deg); top:220px; left:45%; background-image:url(Cards/card8.png)}
+
+.card8
+{
+width:140px; height:220px; background-image:url(Cards/backcard3.png); position:absolute; background-size:contain; background-repeat:no-repeat;
+top:-55px; left:64%; transform:rotate(0deg); cursor:pointer
+}
+
+.card8:hover
+{
+	background-image:url(Cards/card9.png); transform:rotate(0deg) translateY(360px) scale(2.0); z-index:2; transform-origin:center; transition-duration:2s; padding-bottom:20px
+	
+}
+
+.card8:active
+{transform:rotate(0deg); top:220px; left:45%; background-image:url(Cards/card9.png)}
+
+.card9
+{
+width:140px; height:220px; background-image:url(Cards/backcard3.png); position:absolute; background-size:contain; background-repeat:no-repeat;
+top:-45px; left:53%; transform:rotate(0deg); cursor:pointer
+}
+
+.card9:hover
+{
+	background-image:url(Cards/card10.png); transform:rotate(0deg) translateY(360px) scale(2.0); z-index:2; transform-origin:center; transition-duration:2s; padding-bottom:20px
+	
+}
+
+.card9:active
+{transform:rotate(0deg); top:220px; left:45%; background-image:url(Cards/card10.png)}
+
+.card10
+{
+width:140px; height:220px; background-image:url(Cards/backcard3.png); position:absolute; background-size:contain; background-repeat:no-repeat;
+top:-45px; left:42%; transform:rotate(0deg); cursor: pointer
+}
+
+.card10:hover
+{
+	background-image:url(Cards/card11.png); transform:rotate(0deg) translateY(360px) scale(2.0); z-index:2; transform-origin:center; transition-duration:2s; padding-bottom:20px
+	
+}
+
+.card10:active
+{transform:rotate(0deg); top:220px; left:45%; background-image:url(Cards/card11.png)}
+
+.card11
+{
+width:140px; height:220px; background-image:url(Cards/backcard3.png); position:absolute; background-size:contain; background-repeat:no-repeat;
+top:-55px; left:31%; transform:rotate(0deg); cursor:pointer
+}
+
+.card11:hover
+{
+	background-image:url(Cards/card12.png); transform:rotate(0deg) translateY(360px) scale(2.0); z-index:2; transform-origin:center; transition-duration:2s; padding-bottom:20px
+	
+}
+
+.card11:active
+{transform:rotate(0deg); top:220px; left:45%;  background-image:url(Cards/card12.png)}
+
+.card12
+{
+width:140px; height:220px; background-image:url(Cards/backcard3.png); position:absolute; background-size:contain; background-repeat:no-repeat;
+top:-75px; left:20%; transform:rotate(0deg);
+}
+
+.card12:hover
+{
+	background-image:url(Cards/card13.png); transform:rotate(0deg) translateY(360px) scale(2.0); z-index:2; transform-origin:center; transition-duration:2s; cursor:pointer; padding-bottom:20px
+	
+}
+
+.card12:active
+{transform:rotate(0deg); top:220px; left:45%; background-image:url(Cards/card13.png)}
+
+
+.timer
+{background-image:url(timer2.gif); background-repeat:no-repeat; background-size:contain; position:absolute; width: 267px; height: 358px; left:40px; top:205px}
+ 
+ 
+.book {
+    background-image: url(Cards/book.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 143px;
+    height: 150px;
+    background-size: contain;
+    left: 86%;
+    bottom: -75px;
+    cursor: pointer;
+    transform: rotate(0deg);
+}
+
+.tablecard1 {
+    background-image: url(tablecard1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 237px;
+    height: 163px;
+    left: 70%;
+    top: 297px;
+    transition: all .7s ease-in-out;
+    cursor: none;
+}
+
+
+.tablecard2 {
+    background-image: url(Cards/tablecard22.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 237px;
+    height: 161px;
+    left: 70%;
+    top: 145px;
+    transition: all .7s ease-in-out;
+    cursor: none;
+}
+
+.topsecret
+{background-image:url(Cards/topsecret.png); background-repeat:no-repeat; position:absolute;  width: 237px; height: 318px; background-size:contain;  left:40px; top:280px; cursor:pointer }
+
+.deck1
+{background-image:url(Cards/deck1.png); background-repeat:no-repeat; position:absolute;  width: 237px; height: 318px; background-size:contain;  left:0; bottom: -185px; cursor:pointer; transform:rotate(10deg) }
+
+.deck2
+{background-image:url(Cards/deck2.png); background-repeat:no-repeat; position:absolute;  width: 150px; height: 318px; background-size:contain;  left:86%; top:-65px; cursor:pointer; transform:rotate(10deg);  }
+
+.knife {
+    background-image: url(Cards/Daggerbrutus.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 188px;
+    height: 112px;
+    left: 3%;
+    top: -22px;
+    transform: rotate(-35deg);
+}
+
+
+
+.key
+{background-image:url(key.png); background-repeat:no-repeat; background-size:contain; position:absolute; width: 217px; height: 318px; right:330px; top:295px; transition: all .7s  ease-in-out; cursor:none;}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+	.deck1, .card1, .card2, .card3, .card4, .card5, .card6, .book
+	{ 
+		width: 137px; height: 118px; 
+	}
+	
+	.deck1 {
+		top: 95vh
+	}
+	.book 
+	{ 
+		top: 90vh;
+	}
+
+	.card12, .card11, .card10, .card9, .card8, .card7, .tablecard2, .tablecard1 {
+		width: 137px; height: 118px;
+	}
+
+	.card1:active{
+		left: 35%; padding-top: 340px
+	}
+	.card2:active{
+		left: 35%; padding-top: 340px
+	}
+
+	.card3:active{
+		left: 35%; padding-top: 340px
+	}
+	.card4:active{
+		left: 35%; padding-top: 340px
+	}
+	.card5:active{
+		left: 35%; padding-top: 340px
+	}
+	.card6:active{
+		left: 35%; padding-top: 340px
+	}
+	.deck2, .knife, .topsecret {
+		width: 137px; height: 118px;
+	}
+	.topsecret{
+		left: 10px;
+		top: 433px;
+	}
+	.timer {
+		left: 6%;
+	top: 91px;}
+	.tablecard1{
+		top: 435px;
+	}
+	.tablecard2{
+		top: 80px;
+	}
+}
